@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:f_app_1/styled_text.dart';
 class GradientContainer extends StatelessWidget{
   // GradientContainer({key}):super(key:key); //the constructor needs a named argument 'key' , which is passed to super's key argument
   // alternative to line 14:      ---- named arguments are to be obtained inside '{}'
@@ -16,13 +17,7 @@ class GradientContainer extends StatelessWidget{
           ),
         ),
         child: const Center(
-          child:Text(
-            'Hello....',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 28,
-          ),
-        ),
+          child:const StyledText()
       ),
     );
   }
