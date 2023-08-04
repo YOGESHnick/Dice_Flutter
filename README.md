@@ -1,6 +1,4 @@
-# f_app_1
-
-A new Flutter project.
+# Dice App in Flutter
 
 ## Getting Started
 
