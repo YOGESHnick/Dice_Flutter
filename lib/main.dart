@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 void main(){
   runApp(
-     MaterialApp(
+     const MaterialApp(
     home: Scaffold(
       body:GradientContainer()
       ),
@@ -11,6 +11,9 @@ void main(){
 }
 
 class GradientContainer extends StatelessWidget{
+  // GradientContainer({key}):super(key:key); //the constructor needs a named argument 'key' , which is passed to super's key argument
+  // alternative to line 14:      ---- named arguments are to be obtained inside '{}'
+  const GradientContainer({super.key});
   @override
   Widget build(context){
     return Container(
