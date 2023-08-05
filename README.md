@@ -1,7 +1,5 @@
 # Dice App in Flutter
 
-## Getting Started
-
 This is my first flutter project !
 
 
